@@ -266,7 +266,7 @@ Transfer transfer = razorpayClient.Transfers.create(request);
 * Edit a Transfer
 ```java
 JSONObject request = new JSONObject();
-request.put("on_hold", true); // The amount should be in paise.
+request.put("on_hold", true); 
 Transfer transfer = razorpayClient.Transfers.edit(request);
 ```
 
